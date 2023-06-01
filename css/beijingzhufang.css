@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 100%;
+  height: 700px;
+  background-size: 30rem 70rem;
+}
+.box > .header {
+  width: 100%;
+  height: 5rem;
+  background-color: #FF8A00;
+}
+.box > .header > .Img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.box > .header > .Img > img {
+  width: 4rem;
+  height: 4rem;
+}
+.box > .header > .Img > img:nth-of-type(1) {
+  width: 12rem;
+  height: 4rem;
+}
+.box > .nav {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  text-align: center;
+  padding: 0 2rem;
+  font-size: 1.5rem;
+  line-height: 5rem;
+  box-sizing: border-box;
+}
+.box > .nav > a {
+  color: black;
+  text-decoration: none;
+}
+.box > .content {
+  width: 100%;
+  overflow: hidden;
+}
+.box > .content > .content1 {
+  width: 100%;
+  height: 8rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.box > .content > .content1 > .content11 {
+  width: 100%;
+  height: 4rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+}
+.box > .content > .content1 > .content11 > input {
+  width: 80%;
+  height: 3rem;
+  border: 0rem solid gold;
+  border-right: 1px solid black;
+  outline: none;
+}
+.box > .content > .content1 > .content11 > img {
+  margin: auto;
+  width: 2rem;
+  height: 2rem;
+}
+.box > .content > .content2 {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  overflow: hidden;
+}
+.box > .content > .content2 > .content21 {
+  display: flex;
+}
+.box > .content > .content2 > .content22 {
+  display: flex;
+  text-align: center;
+  margin: auto;
+}
+.box > .content > .content2 > .content22 > p {
+  font-size: 2.5rem;
+}
+.box > .content > .content2 > .content22 > img {
+  width: 1rem;
+  height: 1.5rem;
+  margin-top: 0.5rem;
+}
+.box > .content > .content3 {
+  width: 100%;
+  overflow: hidden;
+}
+.box > .content > .content3 > .content31 {
+  width: 90%;
+  height: 15rem;
+  margin: auto;
+  border-bottom: 1px solid black;
+  padding: 2rem 0;
+  box-sizing: border-box;
+  display: flex;
+}
+.box > .content > .content3 > .content31 > img {
+  width: 10rem;
+  height: 10rem;
+}
+.box > .content > .content3 > .content31 > .content311 {
+  margin: 0 1rem;
+}
+.box > .content > .content3 > .content31 > .content311 > .content31111 {
+  display: flex;
+  margin: 1rem 0;
+  justify-content: flex-start;
+}
+.box > .content > .content3 > .content31 > .content311 > .content31111 > span {
+  color: greenyellow;
+  border: 1px solid greenyellow;
+  margin-right: 10rem;
+}
+.box > .content > .content3 > .content31 > .content311 > .content31111 > p {
+  color: orange;
+}
+.box > .bottom {
+  width: 100%;
+  background-color: #2b2a2a;
+}
+.box > .bottom > .bottomtop {
+  width: 90%;
+  height: 5rem;
+  display: flex;
+  text-align: center;
+  padding: 0 2rem;
+  font-size: 1.7rem;
+  line-height: 5rem;
+  color: white;
+  border-bottom: 1px solid #aaa8a8;
+  margin: 0 2rem;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.box > .bottom > .bottomcenter {
+  width: 90%;
+  height: 8rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin: 1rem 2rem;
+  color: white;
+  box-sizing: border-box;
+}
+.box > .bottom > .bottomcenter > .one {
+  width: 50%;
+  height: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+.box > .bottom > .bottomcenter > .one > img {
+  display: inline-block;
+  width: 2rem;
+  height: 3rem;
+}
+.box > .bottom > .bottomcenter > .one > p {
+  width: 10rem;
+  display: inline-block;
+}
+.box > .bottom > .bottomcenter > .two {
+  width: 50%;
+  height: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+.box > .bottom > .bottomcenter > .two > img {
+  display: inline-block;
+  width: 2rem;
+  height: 3rem;
+}
+.box > .bottom > .bottomcenter > .two > p {
+  width: 10rem;
+  display: inline-block;
+}
+.box > .bottom > .bottomdown {
+  width: 90%;
+  height: 5rem;
+  text-align: center;
+  margin: auto;
+  color: white;
+}

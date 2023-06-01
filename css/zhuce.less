@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 100%;
+
+    // background: url(../img/my/bg1.png) no-repeat 0px 0px;
+    background-size: 30rem 70rem;
+
+    &>.header {
+        width: 100%;
+        height: 5rem;
+        background-color: #FF8A00;
+
+        &>.Img {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            &>img {
+                width: 4rem;
+                height: 4rem;
+            }
+
+            &>img:nth-of-type(1) {
+                width: 12rem;
+                height: 4rem;
+
+            }
+        }
+
+    }
+
+    &>.nav {
+        width: 100%;
+        height: 5rem;
+        // background-color: gold;
+        display: flex;
+        text-align: center;
+        padding: 0 2rem;
+        font-size: 1.5rem;
+
+        line-height: 5rem;
+        box-sizing: border-box;
+
+        &>a {
+            color: black;
+            text-decoration: none;
+        }
+
+    }
+
+    &>.content {
+        width: 100%;
+        // background-color: aqua;
+        height: 120rem;
+
+        &>.content1 {
+            width: 100%;
+
+            display: flex;
+            //  background-color: yellow;
+
+            &>.content11 {
+                width: 50%;
+                height: 5rem;
+                //    background-color: red;
+
+
+                &>p {
+                    width: 100%;
+                    height: 100%;
+                    text-align: center;
+                    line-height: 5rem;
+                    font-size: 2rem;
+                    // border-bottom: 3px solid gray;
+                }
+            }
+
+            &>.content12 {
+                width: 50%;
+                height: 5rem;
+                // background-color: olivedrab;
+
+                &>p {
+                    width: 100%;
+                    height: 100%;
+                    text-align: center;
+                    line-height: 5rem;
+                    font-size: 2rem;
+                    //  border-bottom: 3px solid gray;
+                }
+
+            }
+        }
+
+        &>.content2 {
+            width: 100%;
+            height: 10rem;
+
+            &>input {
+                display: block;
+                width: 100%;
+                height: 5rem;
+                padding: 1rem;
+                box-sizing: border-box;
+            }
+
+        }
+
+        &>.content3 {
+            display: none;
+
+        }
+
+        &>.content4 {
+            width: 100%;
+            height: 6rem;
+            padding: 1rem;
+            box-sizing: border-box;
+
+            &>button {
+                display: block;
+                width: 80%;
+                height: 100%;
+                margin: auto;
+                background-color: orange;
+                color: white;
+                font-size: 2rem;
+                border: 0px solid gray;
+
+            }
+        }
+
+        &>.content5 {
+            width: 100%;
+            height: 3rem;
+            margin: 1rem 0;
+
+            &>p:nth-of-type(1) {
+                float: left;
+                color: orange;
+            }
+
+            &>p:nth-of-type(2) {
+                float: right;
+
+
+            }
+        }
+
+
+    }
+}
+
+.active {
+    border-bottom: 3px solid orange;
+}

@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 100%;
+  background-size: 30rem 70rem;
+}
+.box > .header {
+  width: 100%;
+  height: 5rem;
+  background-color: #FF8A00;
+}
+.box > .header > .Img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.box > .header > .Img > img {
+  width: 4rem;
+  height: 4rem;
+}
+.box > .header > .Img > img:nth-of-type(1) {
+  width: 12rem;
+  height: 4rem;
+}
+.box > .nav {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  text-align: center;
+  padding: 0 2rem;
+  font-size: 1.5rem;
+  line-height: 5rem;
+  box-sizing: border-box;
+}
+.box > .nav > a {
+  color: black;
+  text-decoration: none;
+}
+.box > .content {
+  width: 100%;
+  height: 120rem;
+}
+.box > .content > .content1 {
+  width: 100%;
+  display: flex;
+}
+.box > .content > .content1 > .content11 {
+  width: 50%;
+  height: 5rem;
+}
+.box > .content > .content1 > .content11 > p {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 5rem;
+  font-size: 2rem;
+}
+.box > .content > .content1 > .content12 {
+  width: 50%;
+  height: 5rem;
+}
+.box > .content > .content1 > .content12 > p {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 5rem;
+  font-size: 2rem;
+}
+.box > .content > .content2 {
+  width: 100%;
+  height: 10rem;
+}
+.box > .content > .content2 > input {
+  display: block;
+  width: 100%;
+  height: 5rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.box > .content > .content3 {
+  display: none;
+}
+.box > .content > .content4 {
+  width: 100%;
+  height: 6rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.box > .content > .content4 > button {
+  display: block;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  background-color: orange;
+  color: white;
+  font-size: 2rem;
+  border: 0px solid gray;
+}
+.box > .content > .content5 {
+  width: 100%;
+  height: 3rem;
+  margin: 1rem 0;
+}
+.box > .content > .content5 > p:nth-of-type(1) {
+  float: left;
+  color: orange;
+}
+.box > .content > .content5 > p:nth-of-type(2) {
+  float: right;
+}
+.active {
+  border-bottom: 3px solid orange;
+}
