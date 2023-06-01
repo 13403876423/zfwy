@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.Img {
+    width: 100%;
+    height: 5rem;
+    background-color: #FF8A00;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    img:nth-of-type(1) {
+        width: 12rem;
+        height: 4rem;
+    }
+}
+
+.sou {
+    width: 90%;
+    height: 5rem;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #999;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: #FFFFFF;
+
+    input {
+        height: 100%;
+        flex-grow: 3;
+        border: none;
+        font-size: 1.6rem;
+    }
+
+    span {
+        font-size: 1.6rem;
+    }
+
+    a {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+
+        img {
+            width: 3rem;
+        }
+    }
+}
+
+.qu {
+    width: 100%;
+    height: 4rem;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .top {
+        position: relative;
+
+        a {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #666666;
+
+            span {
+                border-top: 0.5rem solid #ccc;
+                border-right: 0.5rem solid transparent;
+                border-bottom: 0.5rem solid transparent;
+                border-left: 0.5rem solid transparent;
+                position: absolute;
+                top: 0.5rem;
+                right: -1.5rem;
+            }
+        }
+    }
+}
+
+// .yu {
+//     width: 100%;
+//     display: flex;
+//     display: none;
+
+//     div {
+//         flex: 1;
+//         background-color: #ccc;
+
+//         p {
+//             padding: 0.5rem 0;
+//             font-size: 2.4rem;
+//             font-weight: 600;
+//             text-align: center;
+
+//             &:nth-of-type(1) {
+//                 color: #FF8A00;
+//                 background-color: #FFFFFF;
+//             }
+//         }
+//     }
+
+//     ul {
+//         flex: 3;
+//         background-color: #FFFFFF;
+
+//         li {
+//             float: left;
+//             color: #666;
+//             width: 45%;
+//             font-size: 1.6rem;
+//             text-align: center;
+//             height: 4rem;
+//             line-height: 4rem;
+//         }
+
+//         .se {
+//             color: #FF8A00;
+//         }
+
+//     }
+// }
+
+// .jia {
+//     padding: 1rem;
+//     background-color: #FFFFFF;
+//     display: none;
+
+//     li {
+//         padding: 1rem 0;
+//         font-size: 1.4rem;
+//         color: #999;
+//         border-bottom: 0.5px solid #999;
+
+//         &:nth-last-of-type(1) {
+//             border: none;
+//         }
+//     }
+// }
+
+// .fang {
+//     padding: 1rem;
+//     background-color: #FFFFFF;
+//     display: none;
+
+//     li {
+//         padding: 1rem 0;
+//         font-size: 1.4rem;
+//         border-bottom: 0.5px solid #999;
+
+//         &:nth-last-of-type(1) {
+//             width: 100%;
+//             height: 3rem;
+//             line-height: 3rem;
+//             text-align: center;
+//             font-size: 1.6rem;
+//             font-weight: 600;
+//             color: white;
+//             background-color: #FF8A00;
+//             border: none;
+//         }
+
+//         span {
+//             float: right;
+//             width: 2rem;
+//             height: 2rem;
+//             border: 1px solid #999;
+//             margin-right: 2rem;
+//         }
+
+//         .dui {
+//             background: url(../img/SecondHandList/ok.png) center no-repeat;
+//         }
+//     }
+// }
+
+// .geng {
+//     width: 100%;
+//     height: 40rem;
+//     display: none;
+//     background-color: #FF8A00;
+// }
+
+// .active {
+//     position: fixed;
+//     top: 0;
+//     height: 4rem;
+//     line-height: 4rem;
+//     width: 100%;
+//     background-color: rgab(0, 0, 0, 0.5);
+
+//     ul {
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-around;
+//         background-color: white;
+
+//         li {
+//             position: relative;
+//         }
+//     }
+
+// }
+
+// .actli {
+//     color: #FF8A00;
+
+//     span {
+//         border-top: .5rem solid transparent;
+//         border-right: .5rem solid transparent;
+//         border-bottom: .5rem solid #FF8A00;
+//         border-left: .5rem solid transparent;
+//         position: absolute;
+//         top: 0.5rem;
+//         right: -1.5rem;
+//     }
+// }
+
+.huxing {
+    width: 90%;
+    height: 12rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    border-bottom: 2px solid #FF8A00;
+
+    div {
+        margin-left: 1rem;
+
+        h4 {
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+            color: #999;
+            margin-bottom: .5rem;
+
+            &:nth-of-type(1) {
+                color: #333;
+            }
+
+            span {
+                color: #FF8A00;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+
+.bottom {
+    width: 100%;
+
+    background-color: rgb(43, 42, 42);
+
+
+
+    .bottomtop {
+        width: 90%;
+        height: 5rem;
+        display: flex;
+        text-align: center;
+        padding: 0 2rem;
+        font-size: 1.7rem;
+        line-height: 5rem;
+        color: white;
+        border-bottom: 1px solid rgb(170, 168, 168);
+        margin: 0 2rem;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    .bottomcenter {
+        width: 90%;
+        height: 8rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+
+        color: white;
+        margin: 1rem 2rem;
+        color: white;
+        box-sizing: border-box;
+
+        .one {
+            width: 50%;
+            height: 100%;
+            padding: 2rem;
+            box-sizing: border-box;
+
+            img {
+                display: inline-block;
+                width: 2rem;
+                height: 3rem;
+            }
+
+            p {
+                width: 10rem;
+                display: inline-block;
+            }
+
+        }
+
+        .two {
+            width: 50%;
+            height: 100%;
+            padding: 2rem;
+            box-sizing: border-box;
+
+            img {
+                display: inline-block;
+                width: 2rem;
+                height: 3rem;
+
+            }
+
+            p {
+                width: 10rem;
+                display: inline-block;
+            }
+
+        }
+    }
+
+    .bottomdown {
+        width: 90%;
+        height: 5rem;
+        text-align: center;
+        margin: auto;
+        color: white;
+    }
+
+
+}
